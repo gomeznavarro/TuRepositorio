@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+#buscador2{background:#d2d2d2; width:430px; position: absolute; top:0; left:550px; margin-top:0px; margin-right:0px; padding-left:0
+	margin-left:30px
+}
+#buscador2 fieldset{
+	border:0; 
+	width:auto; 
+	float:right;
+	margin:10px;
+	margin-bottom:5px;
+	
+		
+
+} 
+#buscador2 #btiendas,
+#buscador2 #bcodigo,
+#buscador2 #bsubcat,
+#buscador2 label{
+	display:inline; float: left; width:auto; padding: .5px 3px}
+
+#buscador2 fieldset legend{
+	display:none
+}
+
+#buscador2 fieldset .botones{
+	float:left;
+	margin-left:5px;	
+}
+
+#buscador2 fieldset .botones img{	
+	vertical-align:middle; 
+	padding:0;
+	margin:0
+}
+
+#buscador2 fieldset label.no_visible {
+	display:none;
+}	
+#buscador2 fieldset label {
+	color:#333;
+	font-size:.7em;
+}	
+
+#buscador2 fieldset .buscar{
+	float:right;
+	background:#FFF;
+	width:400px;
+	height:16px;
+	margin-bottom:3px;
+	font-size:.7em; 
+	
+	
+}
+
+#buscador2 fieldset .boton_buscar{
+	
+	background:#D2D2D2;
+	color:#333;
+	width:80px;
+	margin-left:15px;
+	font-size:10px;
+	float:right;
+	cursor:pointer;
+}
+
+
+#buscador2 input#busca_tiendas {	
+	border: 2px solid #666;
+	padding-left: 5px;
+	color:#333;
+}

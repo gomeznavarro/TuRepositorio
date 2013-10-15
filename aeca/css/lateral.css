@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content #global_lateralycontenido #cat,
+#contentt #global_lateralycontenido #cat {
+	width:180px;
+  	padding: 0px ;
+   	color: #000;
+margin-top:30px;}
+#content #global_lateralycontenido #cat ul,
+#contentt #global_lateralycontenido #cat ul {
+  margin:  0;
+  
+  padding: 0;
+  list-style:none;
+  margin-bottom:10px;
+  border-top:1px solid #999;
+}
+
+#content #global_lateralycontenido #cat li,
+#contentt #global_lateralycontenido #cat li {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #999;
+  border-left:0px;
+  border-right:0px;
+}
+
+
+#content #global_lateralycontenido #cat li a,
+#contentt #global_lateralycontenido #cat li a {
+  display: block;
+  padding: 3px 0 3px 15px;
+  background: #f3f3f3 url(../images/flecha2.jpg) 160px no-repeat;
+  color: #000;
+  text-decoration: none;
+  font-size:12px;
+}
+
+#content #global_lateralycontenido #cat li a:hover,
+#contentt #global_lateralycontenido #cat li a:hover {
+  background: #666 url(../images/flecha.jpg) 160px no-repeat;
+  color: #fff;
+  font-size:12px;
+}
+
+
+/*************************/
+#global_lateralycontenido #cat2 {
+	width:200px;
+  	padding: 0px ;
+   	color: #000;
+margin-top:50px;}
+#global_lateralycontenido #cat2 ul {
+  margin:  0;
+  
+  padding: 0;
+  list-style:none;
+  margin-bottom:10px;
+  border-top:1px solid #999;
+}
+
+#global_lateralycontenido #cat2 li {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #999;
+  border-left:0px;
+  border-right:0px;
+}
+
+
+#global_lateralycontenido #cat2 li a {
+  display: block;
+  padding: 5px 0 5px 15px;
+  background: #f3f3f3 url(../images/flecha2.jpg) 180px no-repeat;
+  color: #333;
+  text-decoration: none;
+  font-size:12px;
+}
+
+#global_lateralycontenido #cat2 li a:hover {
+  background: #666 url(../images/flecha.jpg) 180px no-repeat;
+  color: #fff;
+  font-size:12px;
+}
+
+/**************************************/
+
+#global_lateralycontenido #cat3 {
+	width:500px;
+  	padding: 0px ;
+   	color: #000;
+margin-top:50px;}
+#global_lateralycontenido #cat3 ul {
+  margin:  0;
+  
+  padding: 0;
+  list-style:none;
+  margin-bottom:10px;
+  border-top:1px solid #999;
+}
+
+#global_lateralycontenido #cat3 li {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #999;
+  border-left:0px;
+  border-right:0px;
+}
+
+
+#global_lateralycontenido #cat3 li a {
+  display: block;
+  padding: 5px 0 5px 15px;
+  background: #f3f3f3 url(../images/flecha2.jpg) 480px no-repeat;
+  color: #333;
+  text-decoration: none;
+  font-size:13px;
+}
+
+#global_lateralycontenido #cat3 li a:hover {
+  background: #666 url(../images/flecha.jpg) 480px no-repeat;
+  color: #fff;
+  font-size:13px;
+}
+/*********************************/
+
+#content #global_lateralycontenido #catnoticias {
+	width:180px;
+  	padding: 0px ;
+   	color: #000;
+margin-top:50px;}
+#content #global_lateralycontenido #catnoticias ul {
+  margin:  0;
+  
+  padding: 0;
+  list-style:none;
+  margin-bottom:10px;
+  border-top:1px solid #999;
+}
+
+#content #global_lateralycontenido #catnoticias li {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #999;
+  border-left:0px;
+  border-right:0px;
+}
+
+
+#content #global_lateralycontenido #catnoticias li a {
+  display: block;
+  padding: 3px 5px 3px 10px;
+  background: #f3f3f3;
+  color: #000;
+  text-decoration: none;
+  font-size:12px;
+}
+
+#content #global_lateralycontenido #catnoticias li a:hover {
+  background: #666;
+  color: #fff;
+  font-size:12px;
+}
+#global_lateralycontenido #lateral #cat ul li.soc{font-weight:bold; padding:3px 5px}

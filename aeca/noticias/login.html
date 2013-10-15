@@ -1,0 +1,93 @@
+						
+						<noscript><p style="color:#900">Si tienes deshabilitado JavaScript por favor haz login en la p&aacute;gina de <a class="avance" href="../index.php">inicio</a> y vuelve a entrar</p></noscript>
+						
+						
+							<div id="ocultar_login" style="float:right; margin-top:0px; margin-left:20px;">						
+								<a id="login_ocultar" href="#" class="enlaces2" style="color:#FFF; margin-right:60px">Acceso clientes</a>
+								<a id="login_mostrar" href="javascript:void(0)" class="enlaces2" style="color:#FFF; margin-right:60px">Acceso socios</a>
+							</div>
+										
+							<div id="loginForm">
+													
+								<form action="" id="login" method="post" style="margin-bottom: 50px;">
+									<div style="width: 20em; float:left; margin-bottom:20px">
+						
+								<fieldset >
+												<legend>Acceso socios</legend>
+						
+								  <div style="width: 300px;">
+										<input type="hidden" name="action" value="login" />
+										<input type="hidden" name="id" value="<?=$id?>" />
+								
+										<label for="username">Username</label>
+										<input type="text" name="username" id="username" value="" />
+								
+										<label for="password">Password</label>
+										<input type="password" name="password" id="password" value="" />
+							
+										<div style="clear: both;">
+										<input id="submit" name="submit" type="button" value="Login" />
+										  <!--<input onClick="login_validation(); return false;" type="submit" value="Login" id="submit" name="submit"> --> 
+										</div>
+								  </div>
+								</fieldset>
+								</div>
+								</form>      
+							
+											<div class="clear"></div>  
+						
+							
+							<div id="bienvenida"></div>
+							<div id="complem_login">
+								<a style="text-decoration:none; color: #900; font-size:.9em;" href="../register.php">&iquest;A&uacute;n no eres miembro?</a>
+								<a style="text-decoration:none; color: #900; font-size:.9em;" href="../members/forgot_form_user.php">&iquest;Olvidaste tu usuario?</a>
+								<a style="text-decoration:none; color: #900; font-size:.9em;" href="../members/forgot_form.php">&iquest;Olvidaste tu contrase&ntilde;a?</a> 
+							</div>  
+						
+						</div>
+						
+						<div id="loginUsersForm" style="display:none">
+						<noscript><p style="color:#900">Si tienes deshabilitado JavaScript por favor haz <a href="../members/login.php">login</a> aquí y vuelve a entrar</p></noscript>
+							
+						
+						
+								<form action="" id="login2" method="post" style="margin-bottom: 50px;">
+														<fieldset>
+												<legend >Acceso clientes</legend>
+						
+							  <div style="width: 300px;">
+								<input type="hidden" name="action" value="login" />
+								<input type="hidden" name="id" value="<?=$id?>" />
+						
+								<label for="username2">Username</label>
+								<input type="text" name="username" id="username2" value="" />
+						
+								<label for="password2">Password</label>
+								<input type="password" name="password" id="password2" value="" />
+						
+								<div style="clear: both;">
+								<input id="submit2" name="submit" type="button" value="Login" />
+								  
+								  
+							 </div>
+							  </div>
+							  </fieldset>
+							</form>
+											<div class="clear"></div>  
+						 
+						  
+							
+							
+							
+							
+								<div id="bienvenida2"></div>
+						
+						
+						
+								<div id="complem_login2">
+								<a style="text-decoration:none; color: #900; font-size:.9em;" href="../register_user.php">&iquest;A&uacute;n no eres cliente?</a>
+								<a style="text-decoration:none; color: #900; font-size:.9em;" href="../users/forgot_form_user.php">&iquest;Olvidaste tu usuario?</a>
+								<a style="text-decoration:none; color: #900; font-size:.9em;" href="../users/forgot_form.php">&iquest;Olvidaste tu contrase&ntilde;a?</a> 
+								</div>  
+						
+						</div>

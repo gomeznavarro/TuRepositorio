@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+  
+#global_lateralycontenido.noticias input[type=text],
+#global_lateralycontenido.noticias textarea{
+	width:600px}
+#global_lateralycontenido form{
+			margin-top:20px;}
+#global_lateralycontenido legend{
+	
+}
+#global_lateralycontenido legend.visible{
+	
+}
+		
+
+#global_lateralycontenido #contenido fieldset {
+	margin-top: 25px;
+	padding: 15px;
+	border: 1px solid #d1d1d1;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+
+}
+#global_lateralycontenido #contenido fieldset legend {
+	font: normal 20px Verdana, Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 1px #fff;
+	letter-spacing: -1px;
+	color: #273953;
+}
+		#global_lateralycontenido #contenido input[type=submit],
+		#global_lateralycontenido #contenido input[type=reset],
+		#global_lateralycontenido #contenido input[type=button],
+		#registro input[type=submit], #registro input[type=reset], #registro input[type=button],
+		 #login input[type=submit], #login input[type=reset], #login input[type=button], 
+		 #login2 input[type=submit], #login2 input[type=reset], #login2 input[type=button] {
+			display:inline;
+			margin-top:10px;
+			margin-bottom:10px;
+			margin-left:5px;
+			width:auto;
+			float:right;
+			padding:4px;
+			cursor:pointer;
+			border: 2px solid #666;
+			font-weight:bold;
+		}
+		#global_lateralycontenido #contenido input[type=reset]{
+			
+					font-weight:normal;
+					border: 1px solid #666;
+
+		}
+
+		
+
+#edicion label {  clear: both; text-align: left; margin: 0.6em 5px 0 0; width: 160px; }
+#edicion input, #edicion select, #edicion textarea {  margin: 1em 0 0 0; width: 57%; border: 1px solid #666;text-align:left}
+#edicion input[type=submit], #edicion input[type=reset], #edicion input[type=button], #edicion input[type=image] { width: auto; }
+label a{
+	color:#000;
+	
+}
+#registro label,
+#borrado label,
+#login label,
+#login2 label { float: left; clear: both; text-align: left; margin: 0.6em 5px 0 0; width: 160px; cursor: pointer;}
+#registro input[type=text],#registro input[type=password], #registro select, #registro textarea,
+#login input[type=text],#login input[type=password], #login select, #login textarea,
+#login2 input[type=text],#login2 input[type=password], #login2 select, #login2 textarea{ float: right; border: 1px solid #666; margin: 1em 0 0 0; width:300px; text-align:left }
+#registro select{width:300px;padding:.1em}
+#registro input[type=radio], #registro input[type=checkbox],  #registro input[type=image],
+#login input[type=radio], #login input[type=checkbox],#login input[type=image],
+#login2 input[type=radio], #login2 input[type=checkbox],  #login2 input[type=image] {
+	display:inline;
+			margin-top:10px;
+			margin-bottom:10px;
+			width:auto;
+			float:right;
+			padding:4px;
+			margin-right:10px;
+			cursor:pointer;
+			border: 1px solid #666; }
+#global_lateralycontenido #contenido #principal form#borrado input[type=button]{
+	display:inline;
+			margin-top:10px;
+			margin-bottom:10px;
+			width:auto;
+			float:right;
+			padding:4px;
+			margin-right:0px;
+			cursor:pointer;
+			border: 1px solid #666; }
+#registro fieldset
+
+ {
+	margin-top: 25px;
+	padding: 15px;
+	border: 1px solid #d1d1d1;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	float:left;
+	width:500px;
+
+}
+
+
+#login fieldset,
+#login2 fieldset {
+	margin-top: 25px;
+	padding: 15px;
+	border: 1px solid #d1d1d1;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	float:left;
+	width:320px;
+
+}
+#registro fieldset legend,
+#login fieldset legend,
+#login2 fieldset legend  {
+	font: normal 20px Verdana, Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 1px #fff;
+	letter-spacing: -1px;
+	color: #273953;
+}
+
+#global_lateralycontenido #registro input, #registro textarea, #registro select {
+	padding: 3px;
+}
+#global_lateralycontenido #contenido form#registro, #contenido div#registro{
+	style="float:left; margin-left: 100px; margin-bottom: 50px;"}
+input.botonb{
+	font-weight:bold; 
+	
+}
+form#borrado{float:right}
+#borrado input[type=button]{float:right; }
+
+ div#formulario{width:400px; margin-left:10px; margin-top:20px}
+ div#insideform{width: 30em;}
+	 #formulario fieldset{width:400px; float:left; border:0}
+	 #formulario label{font-size:14px}
+	  /*#formulario legend{display:none}*/
+	  #formulario input[type=text]{width:400px}
+	   #formulario textarea {width:400px;height:200px}
+	    	  #formulario input[type=submit]{margin-left:5px}
+/*#content #global_lateralycontenido #cat li a {
+background: #f3f3f3 url(../images/flecha2.jpg) 210px no-repeat;
+}
+#content #global_lateralycontenido #cat li a:hover {
+background: #CCC url(../images/flecha.jpg) 210px no-repeat;
+}
+#content #global_lateralycontenido #cat li.seleccionado a {
+background: #CCC url(../images/flecha.jpg) 210px no-repeat;}*/

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entradas>
+ <entrada termino="IVA" parte="v.i.">
+ <definicion>
+El IVA es un impuesto indirecto sobre el consumo, es decir financiado por el consumidor final. Un impuesto indirecto es el impuesto que no es percibido por el fisco directamente del tributario. El IVA es percibido por el vendedor en el momento de toda transacción comercial (transferencia de bienes o prestación de servicios). Los vendedores intermediarios tienen el derecho a reembolsarse el IVA que han pagado a otros vendedores que los preceden en la cadena de comercialización (crédito fiscal), deduciéndolo del monto de IVA cobrado a sus clientes (débito fiscal), debiendo abonar el saldo al fisco. Los consumidores finales tienen la obligación de pagar el IVA sin derecho a reembolso, lo que es controlado por el fisco obligando a la empresa a entregar justificantes de venta al consumidor final e integrar copias de éstas a la contabilidad de la empresa.
+ </definicion>
+ </entrada>
+ <entrada termino="IRPF" parte="n.">
+ <definicion>
+ El Impuesto sobre la Renta de las Personas Físicas o IRPF, es un impuesto personal, progresivo y directo que grava la renta obtenida en un año natural por las personas físicas residentes en España. Así pues, es una figura impositiva perteneciente al sistema tributario español.
+En los ordenamientos tributarios contemporáneos, el impuesto sobre la renta es el pilar más significativo del sistema tributario. En el caso de España, el IRPF no es una excepción, teniendo una gran relevancia cuantitativa y recaudatoria. Tanto por su importancia como por la precisión que permite su mecánica tributaria, el IRPF refleja con nitidez los principios tributarios constitucionales y de justicia material, entre los que cabe destacar el principio de progresividad, de generalidad y de capacidad económica.
+La normativa aplicable al impuesto será la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas y de modificación parcial de las leyes de los Impuestos sobre Sociedades, sobre la Renta de no Residentes y sobre el Patrimonio, así como su correspondiente Reglamento, aprobado por el Real Decreto 439/2007, de 30 de marzo, por el que se aprueba el Reglamento del Impuesto sobre la Renta de las Personas Físicas y se modifica el Reglamento de Planes y Fondos de Pensiones, aprobado por Real Decreto 304/2004, de 20 de febrero.
+ </definicion>
+ </entrada>
+ <entrada termino="IMPUESTO DE SOCIEDADES" parte="n.">
+ <definicion>
+ El Impuesto de Sociedades es un tributo perteneciente al sistema tributario español, de carácter periódico, proporcional, directo y personal. Grava la renta de las sociedades y demás entidades jurídicas. Está regulado por el Real Decreto Legislativo 4/2004, de 5 de marzo, por el que se aprueba el Texto refundido de la Ley del Impuesto sobre Sociedades.
+ </definicion>
+ <cita autor="Requisitos">
+ <linea>Que se hubiesen constituido conforme a las leyes españolas.</linea>
+ <linea>Que tengan su domicilio social en territorio español</linea>
+ <linea>Que tengan la sede de dirección efectiva en territorio español.</linea>
+ </cita>
+ </entrada>
+ <entrada termino="DIFAMAR" parte="v.t.">
+ <definicion>
+ Desacreditar a alguien, de palabra o por escrito, publicando algo contra su buena opinión y fama. Poner algo en bajo concepto y estima.
+ </definicion>
+ </entrada>
+</entradas>

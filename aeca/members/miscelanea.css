@@ -1,0 +1,105 @@
+
+.letras {
+  float: right;
+  background:#900;
+  border:1px solid #888;
+  width:100%;
+  
+}
+
+.letra {
+  margin: 0px 5px 0 0 ;
+  font-size:14px;
+  float:right;
+}
+.letra h3 {
+  font-weight: bold;
+}
+
+.boton {
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  margin:5px 3px;
+  background-color: #900;
+  color:#f3f3f3;
+  border-top: 2px solid #888;
+  border-left: 3px solid #888;
+  border-bottom: 3px solid #444;
+  border-right: 3px solid #444;
+  cursor:pointer
+}
+
+.letra ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 1em;
+}
+
+#diccionario {
+  float: left;
+  width: 640px;
+  margin-left:60px;
+    margin-top:30px;
+
+}
+.intro {
+  padding: 1em 0em;
+  /*border-bottom: 1px #555 solid;*/
+    font-size:14px;
+
+}
+.entrada {
+  padding: 1em 0em;
+  /*border-bottom: 1px #555 solid;*/
+    font-size:12px;
+
+}
+.entrada .termino {
+  display: inline;
+  font-weight: bold;
+}
+.entrada .parte {
+  padding: 0 1em;
+  display: inline;
+  font-style: italic;
+}
+.entrada .definicion {
+  padding: .5em;
+  text-align:justify
+}
+.entrada .definicion .cita {
+  margin: .5em 2em;
+  padding: 0 1em;
+  color: #333;
+  border-left: 2px #aaa solid;
+}
+.entrada .definicion .cita .cita-autor {
+  font-weight: bold;
+  margin-left: 20em;
+}
+
+#cargando {
+  border: 1px #000 solid;
+  background-color: #eee;
+  padding: 20px;
+  margin: 100px 0 0 200px;
+  position: absolute;
+  display: none;
+  
+}
+
+#cargando_imagen {  
+  padding: 20px;
+  margin: 100px 0 0 200px;
+  position: absolute;
+  display: none;
+  
+}
+
+
+.destacado {
+  background-color: #dfd;
+  font-style: italic;
+}
+

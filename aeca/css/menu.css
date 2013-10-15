@@ -1,0 +1,411 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****************************************************
+				MENU SOLAPAS
+*****************************************************/
+ body#tab1 li.tab1 a, body#tab2 li.tab2 a, body#tab3 li.tab3 a, body#tab4 li.tab4 a, 
+ body#tab5 li.tab5 a, body#tab6 li.tab6 a, body#tab7 li.tab7 a, body#tab8 li.tab8 a{
+	background-color: #D2D2D2;	
+	color: #000;
+	font-weight:bold;
+ }
+ body#tab1 li.tab1 a:hover, body#tab2 li.tab2 a:hover, body#tab3 li.tab3 a:hover, body#tab4 li.tab4 a:hover, 
+ body#tab5 li.tab5 a:hover, body#tab6 li.tab6 a:hover, body#tab7 li.tab7 a:hover, body#tab8 li.tab8 a:hover{
+	
+	color: #900;
+	
+ }
+ ul.solapas {
+	 
+	float:right;		
+	list-style:none;
+	margin:0 10px 0 0;
+	padding:0;
+	border-bottom:0px; 
+}
+
+ul.solapas li {
+	float:left; 
+}
+
+ul.solapas li a {
+	display:block; 
+	background: #900; 
+	font-size:14px;
+	text-decoration:none;
+	color:#fff; 
+	padding: 6px 8px 10px; 	
+	margin-left: 10px; 
+	border-left:1px solid #666;
+	border-right:1px solid #666;
+	border-top:1px solid #666;
+}
+	
+ul.solapas li a:hover {	
+	background-color: #D2D2D2;	
+	color: #000;
+	padding-bottom:10px; 
+		
+}
+
+	
+
+
+/*****************************************************
+				MENU DESPLEGABLE
+*****************************************************/
+
+#menu {  
+	text-align: center;
+	font-size: .7em;
+	width:958px;
+	background:#333;
+	border:1px solid #666;
+	margin: 2px 0 0 0;
+	float:right;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#menu ul { 
+	list-style-type: none;
+}
+
+#menu ul li.nivel1 { 
+	float: left;
+	margin-right: 0px;
+}
+
+#menu ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #333;
+	border-right:1px solid #666;
+	padding: 10px 15px 10px;
+	position: relative;
+	border-bottom:1px solid #999;
+
+}
+
+#menu ul li:hover {
+	position: relative;
+}
+#menu ul li a:hover, #menu ul li:hover a.nivel1 {
+	background-color: #000;
+	color: #EEE;
+	position: relative;
+	border-bottom:1px solid #999;
+
+}
+
+#menu ul li a.nivel1 {
+	display: block!important;
+	display: none;
+	position: relative;
+}
+
+#menu ul li ul {
+	display: none; 
+}
+
+#menu ul li a:hover ul, #menu ul li:hover ul {
+	display: block;
+	position: absolute;
+	left: 0px;
+}
+
+#menu ul li ul li a {
+	width:150px;
+	padding: 3px 0px 3px 20px;
+	border-top-color: #000;
+	text-align:left;
+	font-size:12px;
+	background: #000;
+	color:#fff;
+	border-bottom:1px solid #666;
+	border-right:1px solid #666;
+	border-left:1px solid #666;
+}
+#menu ul li.ultimo a {
+		border-right:0;
+	
+}
+#menu ul li ul li a:hover {
+	border-top-color: #000;
+	position: relative;
+	font-size:12px;
+	width: 150px;
+	background: #F3F3F3 url(../images/flecha.jpg) 145px no-repeat;
+	text-align:left;
+	color:#000;
+}
+#menu ul li.ultimo a:hover {
+		border-right:0;
+	
+}
+table.falsa {
+	border-collapse:collapse;
+	border:0px;
+	float: left;
+	position: relative;
+}
+
+/*****************************************************
+				MENU FINAL DE CONTENIDO
+*****************************************************/
+
+
+
+#cierre_content { 
+	float:right; 
+	width:710px;
+	font-size:80%!important;
+	margin:0; 
+	padding:0; 
+	height:115px; 
+}
+
+#cierre_content .caja {
+	background: #333; 
+	height:50px ; 
+	border:1px solid #000; 
+	z-index:1;
+	margin-right:10px;
+}
+
+.cierre .menu {
+	float:right;
+	font-size:120%; 
+	list-style:none; 
+	padding:0 10px 0 0px; 
+}
+
+.cierre .menu li {
+	 border:1px solid #CCC; 
+	 width:120px; 
+	 height:80px; 
+	 float:left;
+	 margin-right:10px; 
+	 margin-top:10px; 
+	 z-index:2 
+}
+
+#cierre_content a {
+	background: #333; 
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666; 
+		color:#FFF; 
+
+	margin: 0px; 
+	padding: 3px; 
+	text-decoration: none; 
+	float:left; 
+	z-index:3 
+}
+#cierre_content a span{
+	
+		color:#FFF; 
+
+	
+}
+#cierre_content a:hover {
+	background: #999;
+	color:#000
+}
+ 
+/*****************************************************
+				MENU FINAL DE CONTENT
+*****************************************************/
+
+div.pie_menu {
+	clear:both;
+	margin-top:10px;
+	margin-left:0px;
+}
+
+ul.pie_enlaces {
+	font-size: .7em;
+	float: left;
+	text-align: left;
+	margin-left: 20px;
+	width: 190px;
+	padding-left: 20px;
+	border-right: 1px solid #666;
+	list-style: none;
+	min-height: 5em;
+	height: auto !important;
+	margin-top:10px;	
+	margin-bottom:10px;	
+}
+
+ul.ultimo {	
+	border-right: 0px solid #D6D6D6;	
+}
+
+ul.pie_enlaces ul {
+	float: left;
+	width: 11em;
+	list-style: none;
+}
+
+ul.pie_enlaces li {
+	margin-top: .5em;
+	font-weight: bold;
+	color: #000;
+	display:block;
+	font-size:1em;
+}
+
+ul.pie_enlaces li.superior {
+	margin-top: .5em;
+}
+
+ul.pie_enlaces li a {
+	color: #333;
+	font-weight: normal;
+	text-decoration: none;
+	font-size:0.9em;
+}
+
+ul.pie_enlaces li a:hover {
+	color: #000;
+}
+
+
+
+/****************************MENU NOTICIAS**/
+#global_lateralycontenido #menu_admin,
+#global_lateralycontenido1 #menu_admin {  
+	text-align: center;
+	font-size: .7em;
+	width:956px;
+	
+	background:#333;
+	border:1px solid #333;
+	margin: 0 0 0 0;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#global_lateralycontenido #menu_admin ul,
+#global_lateralycontenido1 #menu_admin ul { 
+	list-style-type: none;
+	margin-left:0;
+		margin-bottom:0px;
+
+}
+#global_lateralycontenido #menu_admin ul li.nivel1,
+#global_lateralycontenido1 #menu_admin ul li.nivel1 { 
+	float: left;
+	margin-right: 0px;
+	margin-left:0;
+		margin-bottom:0;
+	padding-bottom:0;
+}
+#global_lateralycontenido1  #menu_admin ul li{
+	padding-bottom:0px;
+		margin-left:0px;
+				margin-bottom:0;
+}
+
+#global_lateralycontenido #menu_admin ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #333;
+	border-right:1px solid #666;
+	padding: 10px 15px 10px;
+	position: relative;
+		margin-bottom:0px;
+border-bottom:1px solid #666;
+
+}
+#global_lateralycontenido #menu_admin ul li:hover {
+	position: relative;
+			margin-bottom:0;
+				padding-bottom:0px;
+				
+
+
+}
+#global_lateralycontenido #menu_admin ul li a:hover, #global_lateralycontenido  #menu_admin ul li:hover a.nivel1,
+#global_lateralycontenido #menu_admin ul li a:hover, #global_lateralycontenido  #menu_admin ul li:hover a {
+	background-color: #000;
+	color: #EEE;
+	border-bottom:1px solid #666;
+	position: relative;
+}
+#global_lateralycontenido #menu_admin  ul li a.nivel1{
+	display: block!important;
+	display: none;
+	position: relative;
+}
+#global_lateralycontenido #menu_admin ul li a {
+		display: block!important;
+	display: none;
+	position: relative;
+
+	color:#fff;
+	list-style:armenian;
+	padding-bottom:10px;
+	text-decoration:none;
+	font-size:14px; 
+		font-weight:normal;
+
+}
+
+#global_lateralycontenido #menu_admin ul li ul{
+	display: none; 
+}
+
+#global_lateralycontenido #menu_admin ul li a:hover ul, #global_lateralycontenido #menu_admin ul li:hover ul {
+	display: block;
+	position: absolute;
+	left: 0px;
+}
+
+#global_lateralycontenido #menu_admin ul li ul li a {
+	width:180px;
+	padding: 3px 0px 3px 20px;
+	border-top-color: #000;
+	text-align:left;
+	font-size:12px;
+	background: #000;
+	color:#fff;
+	border-bottom:1px solid #666;
+	border-right:1px solid #666;
+	border-left:1px solid #666;
+}
+#global_lateralycontenido #menu_admin ul li.ultimo a{
+		border-right:0;
+	
+}
+#global_lateralycontenido #menu_admin ul li ul li a:hover {
+	border-top-color: #000;
+	position: relative;
+	font-size:12px;
+	width: 180px;
+	background: #F3F3F3 url(../images/flecha.jpg) 170px no-repeat;
+	text-align:left;
+	color:#000;
+}
+#global_lateralycontenido #menu_admin ul li.ultimo a:hover{
+		border-right:0;
+	
+}
+table.falsa {
+	border-collapse:collapse;
+	border:0px;
+	float: left;
+	position: relative;
+}
+   
+#contenido #cat3 ul li.admin{
+	font-size:16px; font-weight:bold; padding:10px 5px
+}
+
+
+
+
+
+

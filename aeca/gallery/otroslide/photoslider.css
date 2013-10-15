@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+.photoslider {
+	/*background:#000*/
+
+}
+
+.photoslider_nav {
+	position: relative;
+	border: solid #666 1px;
+	overflow: hidden;
+	height: 70px;
+	width: 480px;
+	margin: auto;
+	
+}
+
+.photoslider_thumbBar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.photoslider_thumb {
+	position: relative;
+	border: solid black 1px;
+	width: 55px;
+	height: 41px;
+	float: left;
+	padding: 2px;
+	margin: 2px;
+	cursor: pointer;
+}
+
+.photoslider_clear {
+	clear: both;
+}
+
+.photoslider_main  {
+	position: relative;
+	width:480px;
+	background:#000;
+	height: 240px;
+	padding-bottom: 5px;
+	margin:auto
+}
+
+.photoslider_main img {
+	position: relative;
+	border: solid #000 10px;
+	display: block;
+	margin: auto;
+	width:300px;
+}
+
+.photoslider_caption {
+	margin-top:10px;
+	font-weight:bold;
+	text-align: center;
+	color:#000
+}
+.photoslider_des {
+	margin-top:5px;
+	font-weight:normal;
+	text-align: center;
+	color:#000
+}
+.photoslider_control {
+	display: inline;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+	margin: auto;
+	height: 30px;
+	width: 77px;
+	
+}
+
+.photoslider_play, .photoslider_stop {
+	width: 15px;
+	height: 15px;
+	margin: auto;
+	padding: 3px;
+	cursor: pointer;
+	text-align: center;
+	border: solid #fff 1px;
+	float: left;
+}
+
+.photoslider_play {
+	background: url('/aeca/images/play.png') no-repeat 0px 0px;
+}
+
+.photoslider_stop {
+	background: url('/aeca/images/pause.png') no-repeat 0px 0px;
+}
+
+.slideshow_disabled {
+	border-bottom: solid #919191 2px;
+		border-right: solid #919191 2px;
+
+}

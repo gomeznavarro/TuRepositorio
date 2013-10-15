@@ -1,0 +1,8 @@
+ </ContentTemplate>
+           <Triggers>
+                <asp:AsyncPostBackTrigger ControlID="DropDownList2" 
+                    EventName="SelectedIndexChanged" />
+            </Triggers>
+    </asp:UpdatePanel>
+
+justo al final del updatepanel1
